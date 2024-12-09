@@ -2,18 +2,21 @@
 
 # 实时网络抓包和流量分析工具
 
-## 系统要求
+## 测试环境
 
-- **操作系统**: Windows
-- **依赖工具**: Npcap
+- **操作系统**: Windows 11 专业版
+- **依赖工具**: Wireshark, Npcap
 - **Python版本**: Python 3.11.4
 
 ## 安装依赖
 
 1. **安装 Npcap**
    - 下载并安装 [Npcap](https://nmap.org/npcap/)（选择安装时勾选“安装 WinPcap API 兼容层”选项）。
+
+2. **安装 Wireshark**
+   - 下载并安装 [Wireshark](https://www.wireshark.org/)，记住其中tshark.exe的路径。
    
-2. **安装 Python 依赖**
+3. **安装 Python 依赖**
    - 在项目目录中打开终端，运行以下命令安装所需的 Python 库：
    
      ```bash
